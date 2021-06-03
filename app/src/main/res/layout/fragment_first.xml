@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Pueblo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--tools:context=".MainActivity">-->
+
+    <TextView
+        android:id="@+id/vviento"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:background="#87CF"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:drawableTint="#FFFFFF"
+        app:drawableTintMode="screen" />
+
+    <TextView
+        android:id="@+id/dviento"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:background="#87CF"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:drawableTint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/estadocielo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:background="#87CF"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:drawableTint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/preci"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:background="#87CF"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:drawableTint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Temperatura"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:background="#87CF"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="TextView"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/pueblo"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/nombres"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="By: Sergio Durá y Guillermo Parés"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:gravity="center_horizontal"
+        app:srcCompat="@drawable/aemet_logo" />
+
+
+</LinearLayout>
