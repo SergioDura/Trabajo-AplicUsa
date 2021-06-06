@@ -15,4 +15,77 @@
         android:textSize="40dp"
         android:text="Tercer fragmento" />
 
+    <TextView
+        android:id="@+id/vviento3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:background="#87CF"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/dviento3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:background="#87CF"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:translationY="170dp" />/>
+
+    <TextView
+        android:id="@+id/estadocielo3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:background="#87CF"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:translationY="230dp" />
+
+    <TextView
+        android:id="@+id/preci3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:background="#87CF"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:translationY="300dp"/>
+
+    <TextView
+        android:id="@+id/Temperatura3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:background="#87CF"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="TextView"
+        android:textStyle="bold|italic"
+        android:translationY="370dp"/>
+
+    <TextView
+        android:id="@+id/pueblo3"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:translationY="440dp" />
+
+
 </FrameLayout>

@@ -83,17 +83,20 @@
     <TextView
         android:id="@+id/nombres"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:textColor="@color/black"
         android:gravity="center"
-        android:text="By: Sergio Durá y Guillermo Parés"
+        android:text="By: Sergio Durá, Guillermo Parés, Ferran Pastor y Miguel Franco
+"
         android:textStyle="bold|italic" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="290dp"
-        android:gravity="center_horizontal"
+        android:layout_width="228dp"
+        android:layout_height="114dp"
+        android:gravity="center"
+        android:translationX="70dp"
+        android:translationY="10dp"
         app:srcCompat="@drawable/aemet_logo" />
 
 

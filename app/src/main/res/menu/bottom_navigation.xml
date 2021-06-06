@@ -11,5 +11,5 @@
         <item
             android:id="@+id/thirdFragment"
             android:icon="@android:drawable/ic_input_add"
-            android:title="Tercero"/>
+            android:title="Tercero" />
 </menu>
